@@ -1,0 +1,125 @@
+
+body {
+    font-size: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('bgbody.gif') ;
+
+    
+}
+.tabeladados{
+
+    width: 50%;
+    margin-right: 20%;
+    border-collapse: collapse;
+    text-align: center;
+    float: right;
+    background-color: rgba(1,1,1,0.5);
+
+    color: white;
+    
+}
+.tabeladados tr {
+    border-bottom: 1px solid #cbcbcb;
+    transition: 0.3s;
+}
+.tabeladados th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+    
+}
+.tabeladados tr:hover {
+    background:rgba(1,1,1,0.9);
+    transition: 0.3s;
+}
+
+
+.camposdados {
+    margin: 10px 0px 10px 0px;
+    width: 20%;
+    float: left;
+    padding: 15px;
+
+    
+  
+    
+}
+
+.camposdados input {
+    width: 80%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dadosinseridos{
+    margin: auto;
+
+    border-radius: 15px;
+    border-collapse: collapse;
+    background-color: rgba(1,1,1,0.5);
+    width: 100%;
+    padding-top: 20px;
+
+
+}
+.dadosinseridos:hover{
+
+    border-radius: 15px;
+    border-collapse: collapse;
+    background-color: rgba(1,1,1,0.9);
+    width: 100%;
+    padding-top: 20px;
+
+
+}
+.dadosinseridos td{
+    text-align: center;
+    border-radius: 15px;
+    border-collapse: collapse;
+
+    width: 100%;
+    padding: 20px;
+
+
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background:darkgrey;
+    border: none;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
+}
+.btn:hover {
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background:white;
+    border: none;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: black;
+    border-radius: 3px;
+    background: white;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
